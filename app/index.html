@@ -22,9 +22,45 @@
             justify-content: center;
             font-size: 3em;
         }
+
+        .section {
+            height: 20vh;
+            display: flex;
+            width: 100%;
+            flex-direction: row;
+        }
+
+        .section div {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 50%;
+        }
+
+        .section .destaque {
+            background-color: #000;
+            color: #fff;
+            font-size: 3em;
+        }
+
+        .section-yellow {
+
+        }
+
+        .section-black {
+
+        }
     </style>
     <section id="s-hero">
         <h1>Git Ninja</h1>
+    </section>
+    <section class="section section-yellow">
+        <div class="destaque">
+            Git clone
+        </div>
+        <div class="texto">
+            <p>É um utilitário de linha de comando que é usado para selecionar um repositório existente e criar um clone ou cópia do repositório de destino.</p>
+        </div>
     </section>
 </body>
 </html>
